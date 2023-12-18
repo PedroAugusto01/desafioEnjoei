@@ -10,9 +10,9 @@ Pods utilizados:
 
 	pod 'Moya', '~> 15.0'
  
-  pod 'SDWebImage'
+  	pod 'SDWebImage'
   
-  pod 'SkeletonView'
+  	pod 'SkeletonView'
 
 Pastas no app:
 Presentation -> Onde está as views, controllers e configuração da cell
