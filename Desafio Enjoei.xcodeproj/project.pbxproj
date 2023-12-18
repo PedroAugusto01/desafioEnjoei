@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1604A8032B2A24A00002B1CA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604A8022B2A24A00002B1CA /* UILabel+Extension.swift */; };
+		1604A80B2B2B40BE0002B1CA /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1604A80A2B2B40BD0002B1CA /* CustomNavigationBar.xib */; };
+		1604A8132B2B4BA10002B1CA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604A8122B2B4BA10002B1CA /* UIView+Extension.swift */; };
+		1604A8162B2B520E0002B1CA /* CustonNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604A8152B2B520E0002B1CA /* CustonNavigationBar.swift */; };
+		1649F56C2B28D07600A41235 /* AllProductListCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1649F56B2B28D07600A41235 /* AllProductListCollectionViewModel.swift */; };
+		1649F5702B28D0BD00A41235 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1649F56E2B28D0BD00A41235 /* ProductsCollectionViewCell.swift */; };
+		1649F5712B28D0BD00A41235 /* ProductsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1649F56F2B28D0BD00A41235 /* ProductsCollectionViewCell.xib */; };
 		168FA46E2B282324002E9194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA46D2B282324002E9194 /* AppDelegate.swift */; };
 		168FA4702B282324002E9194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA46F2B282324002E9194 /* SceneDelegate.swift */; };
 		168FA4722B282324002E9194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA4712B282324002E9194 /* ViewController.swift */; };
-		168FA4752B282324002E9194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168FA4732B282324002E9194 /* Main.storyboard */; };
 		168FA4772B282326002E9194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168FA4762B282326002E9194 /* Assets.xcassets */; };
-		168FA47A2B282326002E9194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168FA4782B282326002E9194 /* LaunchScreen.storyboard */; };
 		168FA4852B282326002E9194 /* Desafio_EnjoeiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA4842B282326002E9194 /* Desafio_EnjoeiTests.swift */; };
 		168FA48F2B282326002E9194 /* Desafio_EnjoeiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA48E2B282326002E9194 /* Desafio_EnjoeiUITests.swift */; };
 		168FA4912B282326002E9194 /* Desafio_EnjoeiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA4902B282326002E9194 /* Desafio_EnjoeiUITestsLaunchTests.swift */; };
+		168FA4A02B28237F002E9194 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA49F2B28237F002E9194 /* HomeViewController.swift */; };
+		168FA4A92B289315002E9194 /* EnjoeiApiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA4A82B289315002E9194 /* EnjoeiApiType.swift */; };
+		168FA4AC2B28938D002E9194 /* EnjoeiApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA4AB2B28938D002E9194 /* EnjoeiApiResponse.swift */; };
+		168FA4AF2B2896DE002E9194 /* EnjoeiApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA4AE2B2896DE002E9194 /* EnjoeiApi.swift */; };
+		168FA4B32B289B20002E9194 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168FA4B22B289B20002E9194 /* NetworkError.swift */; };
+		16DD87B32B289FEA004CFB63 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16DD87B22B289FEA004CFB63 /* HomeView.xib */; };
+		16DD87B52B28A04F004CFB63 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD87B42B28A04F004CFB63 /* HomeViewModel.swift */; };
+		16DD87C62B28CC74004CFB63 /* Array+Extesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DD87C52B28CC74004CFB63 /* Array+Extesion.swift */; };
+		7258C67FD542E8806117A1DA /* Pods_Desafio_Enjoei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0927B987EA73F64CAEB114F3 /* Pods_Desafio_Enjoei.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +50,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0927B987EA73F64CAEB114F3 /* Pods_Desafio_Enjoei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desafio_Enjoei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D22CD87EA733066C706D7B0 /* Pods-Desafio Enjoei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Enjoei.release.xcconfig"; path = "Target Support Files/Pods-Desafio Enjoei/Pods-Desafio Enjoei.release.xcconfig"; sourceTree = "<group>"; };
+		1604A8022B2A24A00002B1CA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		1604A80A2B2B40BD0002B1CA /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		1604A8122B2B4BA10002B1CA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1604A8152B2B520E0002B1CA /* CustonNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonNavigationBar.swift; sourceTree = "<group>"; };
+		1649F56B2B28D07600A41235 /* AllProductListCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProductListCollectionViewModel.swift; sourceTree = "<group>"; };
+		1649F56E2B28D0BD00A41235 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1649F56F2B28D0BD00A41235 /* ProductsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCollectionViewCell.xib; sourceTree = "<group>"; };
 		168FA46A2B282324002E9194 /* Desafio Enjoei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio Enjoei.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		168FA46D2B282324002E9194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		168FA46F2B282324002E9194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		168FA4712B282324002E9194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		168FA4742B282324002E9194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		168FA4762B282326002E9194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		168FA4792B282326002E9194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		168FA47B2B282326002E9194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		168FA4802B282326002E9194 /* Desafio EnjoeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio EnjoeiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		168FA4842B282326002E9194 /* Desafio_EnjoeiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_EnjoeiTests.swift; sourceTree = "<group>"; };
 		168FA48A2B282326002E9194 /* Desafio EnjoeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio EnjoeiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		168FA48E2B282326002E9194 /* Desafio_EnjoeiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_EnjoeiUITests.swift; sourceTree = "<group>"; };
 		168FA4902B282326002E9194 /* Desafio_EnjoeiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_EnjoeiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		168FA49F2B28237F002E9194 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		168FA4A82B289315002E9194 /* EnjoeiApiType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjoeiApiType.swift; sourceTree = "<group>"; };
+		168FA4AB2B28938D002E9194 /* EnjoeiApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjoeiApiResponse.swift; sourceTree = "<group>"; };
+		168FA4AE2B2896DE002E9194 /* EnjoeiApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjoeiApi.swift; sourceTree = "<group>"; };
+		168FA4B22B289B20002E9194 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		16DD87B22B289FEA004CFB63 /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		16DD87B42B28A04F004CFB63 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		16DD87C52B28CC74004CFB63 /* Array+Extesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extesion.swift"; sourceTree = "<group>"; };
+		70725F6020649D1157D8DDDE /* Pods-Desafio Enjoei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desafio Enjoei.debug.xcconfig"; path = "Target Support Files/Pods-Desafio Enjoei/Pods-Desafio Enjoei.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7258C67FD542E8806117A1DA /* Pods_Desafio_Enjoei.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +107,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1604A8142B2B51C90002B1CA /* CustonNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				1604A80A2B2B40BD0002B1CA /* CustomNavigationBar.xib */,
+				1604A8152B2B520E0002B1CA /* CustonNavigationBar.swift */,
+			);
+			path = CustonNavigationBar;
+			sourceTree = "<group>";
+		};
+		1649F56D2B28D08000A41235 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1649F56B2B28D07600A41235 /* AllProductListCollectionViewModel.swift */,
+				1649F56E2B28D0BD00A41235 /* ProductsCollectionViewCell.swift */,
+				1649F56F2B28D0BD00A41235 /* ProductsCollectionViewCell.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		1649F5742B29016F00A41235 /* Ultility+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				16DD87C52B28CC74004CFB63 /* Array+Extesion.swift */,
+				1604A8022B2A24A00002B1CA /* UILabel+Extension.swift */,
+				1604A8122B2B4BA10002B1CA /* UIView+Extension.swift */,
+			);
+			path = "Ultility+Extension";
+			sourceTree = "<group>";
+		};
 		168FA4612B282324002E9194 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +143,8 @@
 				168FA4832B282326002E9194 /* Desafio EnjoeiTests */,
 				168FA48D2B282326002E9194 /* Desafio EnjoeiUITests */,
 				168FA46B2B282324002E9194 /* Products */,
+				F717C6DC1D772B87AF40365E /* Pods */,
+				BD102D8E285E35C4F9583B85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +164,11 @@
 				168FA46D2B282324002E9194 /* AppDelegate.swift */,
 				168FA46F2B282324002E9194 /* SceneDelegate.swift */,
 				168FA4712B282324002E9194 /* ViewController.swift */,
-				168FA4732B282324002E9194 /* Main.storyboard */,
 				168FA4762B282326002E9194 /* Assets.xcassets */,
-				168FA4782B282326002E9194 /* LaunchScreen.storyboard */,
 				168FA47B2B282326002E9194 /* Info.plist */,
+				168FA4B42B289EA9002E9194 /* Presentation */,
+				168FA4A52B289187002E9194 /* Network */,
+				1649F5742B29016F00A41235 /* Ultility+Extension */,
 			);
 			path = "Desafio Enjoei";
 			sourceTree = "<group>";
@@ -127,6 +190,102 @@
 			path = "Desafio EnjoeiUITests";
 			sourceTree = "<group>";
 		};
+		168FA4A52B289187002E9194 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				168FA4A62B289199002E9194 /* Moya */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		168FA4A62B289199002E9194 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				168FA4B22B289B20002E9194 /* NetworkError.swift */,
+				168FA4AD2B2896CF002E9194 /* RequestAPI */,
+				168FA4AA2B28937F002E9194 /* RequestModel */,
+				168FA4A72B2892F3002E9194 /* RequestType */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		168FA4A72B2892F3002E9194 /* RequestType */ = {
+			isa = PBXGroup;
+			children = (
+				168FA4A82B289315002E9194 /* EnjoeiApiType.swift */,
+			);
+			path = RequestType;
+			sourceTree = "<group>";
+		};
+		168FA4AA2B28937F002E9194 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				168FA4AB2B28938D002E9194 /* EnjoeiApiResponse.swift */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		168FA4AD2B2896CF002E9194 /* RequestAPI */ = {
+			isa = PBXGroup;
+			children = (
+				168FA4AE2B2896DE002E9194 /* EnjoeiApi.swift */,
+			);
+			path = RequestAPI;
+			sourceTree = "<group>";
+		};
+		168FA4B42B289EA9002E9194 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1604A8142B2B51C90002B1CA /* CustonNavigationBar */,
+				1649F56D2B28D08000A41235 /* CollectionView */,
+				168FA4B72B289EC1002E9194 /* Controllers */,
+				168FA4B62B289EB9002E9194 /* Models */,
+				168FA4B52B289EB2002E9194 /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		168FA4B52B289EB2002E9194 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16DD87B22B289FEA004CFB63 /* HomeView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		168FA4B62B289EB9002E9194 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16DD87B42B28A04F004CFB63 /* HomeViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		168FA4B72B289EC1002E9194 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				168FA49F2B28237F002E9194 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BD102D8E285E35C4F9583B85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0927B987EA73F64CAEB114F3 /* Pods_Desafio_Enjoei.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F717C6DC1D772B87AF40365E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70725F6020649D1157D8DDDE /* Pods-Desafio Enjoei.debug.xcconfig */,
+				0D22CD87EA733066C706D7B0 /* Pods-Desafio Enjoei.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 168FA4942B282326002E9194 /* Build configuration list for PBXNativeTarget "Desafio Enjoei" */;
 			buildPhases = (
+				50B80039DFC1EB76681FE752 /* [CP] Check Pods Manifest.lock */,
 				168FA4662B282324002E9194 /* Sources */,
 				168FA4672B282324002E9194 /* Frameworks */,
 				168FA4682B282324002E9194 /* Resources */,
+				4D6BC3FBD44D962E91126E2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +392,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168FA47A2B282326002E9194 /* LaunchScreen.storyboard in Resources */,
+				1604A80B2B2B40BE0002B1CA /* CustomNavigationBar.xib in Resources */,
+				1649F5712B28D0BD00A41235 /* ProductsCollectionViewCell.xib in Resources */,
 				168FA4772B282326002E9194 /* Assets.xcassets in Resources */,
-				168FA4752B282324002E9194 /* Main.storyboard in Resources */,
+				16DD87B32B289FEA004CFB63 /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +415,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D6BC3FBD44D962E91126E2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio Enjoei/Pods-Desafio Enjoei-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Desafio Enjoei/Pods-Desafio Enjoei-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Desafio Enjoei/Pods-Desafio Enjoei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B80039DFC1EB76681FE752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Desafio Enjoei-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		168FA4662B282324002E9194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1649F5702B28D0BD00A41235 /* ProductsCollectionViewCell.swift in Sources */,
 				168FA4722B282324002E9194 /* ViewController.swift in Sources */,
+				16DD87B52B28A04F004CFB63 /* HomeViewModel.swift in Sources */,
+				1604A8162B2B520E0002B1CA /* CustonNavigationBar.swift in Sources */,
+				1604A8132B2B4BA10002B1CA /* UIView+Extension.swift in Sources */,
+				16DD87C62B28CC74004CFB63 /* Array+Extesion.swift in Sources */,
+				168FA4A92B289315002E9194 /* EnjoeiApiType.swift in Sources */,
+				1649F56C2B28D07600A41235 /* AllProductListCollectionViewModel.swift in Sources */,
+				168FA4AC2B28938D002E9194 /* EnjoeiApiResponse.swift in Sources */,
 				168FA46E2B282324002E9194 /* AppDelegate.swift in Sources */,
 				168FA4702B282324002E9194 /* SceneDelegate.swift in Sources */,
+				168FA4A02B28237F002E9194 /* HomeViewController.swift in Sources */,
+				168FA4B32B289B20002E9194 /* NetworkError.swift in Sources */,
+				1604A8032B2A24A00002B1CA /* UILabel+Extension.swift in Sources */,
+				168FA4AF2B2896DE002E9194 /* EnjoeiApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +511,6 @@
 			targetProxy = 168FA48B2B282326002E9194 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		168FA4732B282324002E9194 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				168FA4742B282324002E9194 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		168FA4782B282326002E9194 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				168FA4792B282326002E9194 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		168FA4922B282326002E9194 /* Debug */ = {
@@ -366,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +617,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +629,7 @@
 		};
 		168FA4952B282326002E9194 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70725F6020649D1157D8DDDE /* Pods-Desafio Enjoei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,9 +640,9 @@
 				INFOPLIST_FILE = "Desafio Enjoei/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +658,7 @@
 		};
 		168FA4962B282326002E9194 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D22CD87EA733066C706D7B0 /* Pods-Desafio Enjoei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,9 +669,9 @@
 				INFOPLIST_FILE = "Desafio Enjoei/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

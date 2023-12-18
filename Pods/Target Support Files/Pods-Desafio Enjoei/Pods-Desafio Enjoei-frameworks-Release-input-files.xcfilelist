@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Desafio Enjoei/Pods-Desafio Enjoei-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework

@@ -1,0 +1,6 @@
+framework module Pods_Desafio_Enjoei {
+  umbrella header "Pods-Desafio Enjoei-umbrella.h"
+
+  export *
+  module * { export * }
+}
